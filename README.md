@@ -1,7 +1,7 @@
 
 
 # Viewpoint Estimation Pipeline
-
+This repository contains the code and models to accompany my thesis on "Viewpoint Estimation for Animal Re-Identification on Edge Devices" at the Max Planck Institute for Intelligent Systems
 * **Species:** Optimized for Equids (Zebras)
 * **Input Dimensions:** $224 \times 224$ bounding box crops
 * **Downstream Integrations:** Embedded within `RAPID` and the [`Behaviors Inference Framework`](https://github.com/robot-perception-group/Animal-Behaviour-Inference-Framework)
