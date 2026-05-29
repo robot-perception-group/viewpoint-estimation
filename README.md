@@ -4,7 +4,7 @@
 
 * **Species:** Optimized for Equids (Zebras)
 * **Input Dimensions:** $224 \times 224$ bounding box crops
-* **Downstream Integrations:** Embedded within `RAPID` and the `Behaviors Inference Framework` (add links)
+* **Downstream Integrations:** Embedded within `RAPID` and the [`Behaviors Inference Framework`](https://github.com/robot-perception-group/Animal-Behaviour-Inference-Framework)
 ---
 [Demo Video](https://www.youtube.com/watch?v=7CFVS-LiWfc)
 
