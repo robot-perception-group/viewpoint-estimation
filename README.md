@@ -51,3 +51,5 @@ This repository is organized into two separate branches:
 * **`module`**: A lightweight, production-ready release containing only the core standalone estimator. Switch to this branch for direct, dependencies-minimized deployment and framework integration.
 
 Binary model weights can be found in the release package for this thesis.
+
+the `demo/` directory includes sampled images for two zebras including 8 different viewpoints from the [`ZebraStereoID`](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/DARUS-5957) dataset. 
