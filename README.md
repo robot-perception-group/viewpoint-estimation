@@ -7,6 +7,7 @@ This repository contains the code and models to accompany my thesis at the Max P
 * **Downstream Integrations:** Embedded within [`RAPID`](https://github.com/robot-perception-group/RAPID-animal-reidentification) and the [`Behaviors Inference Framework`](https://github.com/robot-perception-group/Animal-Behaviour-Inference-Framework)
 ---
 
+See the demo of the viewpoint estimator [on YouTube](https://youtu.be/7CFVS-LiWfc)
 
 https://github.com/user-attachments/assets/3ff355d4-a38e-477b-acef-3ea29a74ad63
 
