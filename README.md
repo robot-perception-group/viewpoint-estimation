@@ -4,9 +4,8 @@
 This repository contains the code and models to accompany my thesis on "Viewpoint Estimation for Animal Re-Identification on Edge Devices" at the Max Planck Institute for Intelligent Systems
 * **Species:** Optimized for Equids (specifically Zebras)
 * **Input Dimensions:** $224 \times 224$ bounding box crops
-* **Downstream Integrations:** Embedded within `RAPID` and the [`Behaviors Inference Framework`](https://github.com/robot-perception-group/Animal-Behaviour-Inference-Framework)
+* **Downstream Integrations:** Embedded within [`RAPID`](https://github.com/robot-perception-group/RAPID-animal-reidentification) and the [`Behaviors Inference Framework`](https://github.com/robot-perception-group/Animal-Behaviour-Inference-Framework)
 ---
-[Demo Video](https://www.youtube.com/watch?v=7CFVS-LiWfc)
 
 
 https://github.com/user-attachments/assets/3ff355d4-a38e-477b-acef-3ea29a74ad63
@@ -24,7 +23,7 @@ graph LR
     A["Input Image<br>(224×224 Crop)"]:::data
     B["Custom YOLO<br>Pose Model"]:::module
     C["17 Keypoints with<br>confidence scores"]:::data
-    D["Ablated<br>Feature Set"]:::data
+    D["Derived<br>Feature Set"]:::data
     E["Viewpoint<br>MLP"]:::module
     F["Regressed Angle<br>(φ)"]:::data
     G["Keypoint skeleton"]:::data
@@ -51,4 +50,4 @@ This repository is organized into two separate branches:
 * **`master`**: Contains the full pipeline and model training scripts from my thesis. Use this branch to experiment, evaluate ablation configurations or train custom models.
 * **`module`**: A lightweight, production-ready release containing only the core standalone estimator. Switch to this branch for direct, dependencies-minimized deployment and framework integration.
 
-Binary model weights can be found in the release package for this thesis
+Binary model weights can be found in the release package for this thesis.
